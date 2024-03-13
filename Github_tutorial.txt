@@ -1,0 +1,7 @@
+Github is a place to work on and store code.
+People can collaborate on code.
+Repositories (repos for short) are where you can group files of code together.
+In github, you can create new branches of code that contain the code you want to change, while the main branch contains the unaltered code. 
+Then when you're done, you can leave the new branch with the edited code as it is, or if you want that code to replace some of the main branch code, you can merge the new branch file into the old branch.
+This is called merge. 'Commit changes' is like the save button to update what you've been working on. 
+That's pretty much all you need to know if you don't want to collaborate. 
