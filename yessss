@@ -1,0 +1,9 @@
+import random
+suits = ['Hearts','Diamonds','Clubs','Spades']
+ranks = ['2','3','4','5','6','7','8','9','10','Jack','Queen','King','Ace']
+deck=[(rank, suit)for suit in suits for rank in ranks]
+random.shuffle(deck)
+player1_hand = [deck.pop()for _ in range(5)]
+player2_hand = [deck.pop()for _ in range(5)]
+print("Player 1's hand:",player1_hand)
+print("Player 2's hand:",player2_hand)
